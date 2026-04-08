@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Environment / secrets
+.env
+*.env
+
+# Local caches and model artifacts
+hf_cache/
+**/hf_cache/
+.cache/
+
+# Generated evaluation outputs
+Evaluations/alpaca_eval_results/
+Evaluations/TruthfulQA/outputs/
+
+# Legacy TruthfulQA trees removed from the release
+TruthfulQA-main/
+TruthfulQA-main-llama/
+
+# Notebook checkpoints
+.ipynb_checkpoints/

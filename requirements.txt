@@ -1,0 +1,20 @@
+numpy
+pandas
+tqdm
+pyyaml
+openai
+evaluate
+rouge_score
+nltk
+absl-py
+datasets
+transformers
+accelerate
+huggingface-hub
+safetensors
+sentencepiece
+tiktoken
+torch
+alpaca-eval
+
+# Optional: install a CUDA-matching PyTorch build separately if needed for GPU runs.
